@@ -1,54 +1,13 @@
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    font-family: 'verdana';
+    font-weight: normal;
+    font-size: 25px;
+    color: #fff;
+    display: inline;;
   }
+
   
-  header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav li:last-child {
-    margin-right: 0;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #0077ff;
-  }
-  
+
   main {
     margin-top: 80px;
   }
@@ -89,7 +48,7 @@ body {
   }
   
   #video {
-    background-color: #f2f2f2;
+    background-color: black;
     text-align: center;
     padding: 100px 20px;
   }
@@ -124,7 +83,7 @@ body {
   }
   
   #cta {
-    background-color: #0077ff;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -143,7 +102,7 @@ body {
   }
   
   #cta button {
-    background-color: #fff;
+    background-color: black;
     border: none;
     border-radius: 25px;
     color: #0077ff;
@@ -153,12 +112,12 @@ body {
   }
   
   #cta button:hover {
-    background-color: #f2f2f2;
+    background-color: #333;
     color: #0077ff;
   }
   
   footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -167,4 +126,7 @@ body {
   footer p {
     margin: 0;
     padding: 0;
+  }
+  body {
+    background-color: black;
   }
