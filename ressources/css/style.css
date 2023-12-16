@@ -6,17 +6,13 @@ h1 {
     text-align: center;
     }
   
-  main {
-    margin-top: 80px;
-  }
-  
   #hero {
     background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 10px 10px;
   }
   
   #hero h1 {
@@ -32,23 +28,23 @@ h1 {
   }
   
   #hero button {
-    background-color: #0077ff;
+    background-color: aquamarine;
     border: none;
     border-radius: 25px;
     color: #fff;
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 15px 15px;
     transition: background-color 0.2s ease;
   }
   
   #hero button:hover {
-    background-color: #0066cc;
+    background-color: #08926d;
   }
   
   #video {
     background-color: black;
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
   }
   
   #video video {
@@ -93,15 +89,11 @@ h1 {
     font-size: 21px;
   }
   
-  #icon {
-    display: table;
-    margin: 0 auto;
-    padding-left: 50px;
-    ce
-  }
-  
-  #icon img {
+ #icon {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
   }
 
   #cta {
@@ -146,7 +138,7 @@ h1 {
   }
   
   footer p {
-    margin: 0;
+    text-align: right;
     padding: 0;
   }
   body {
